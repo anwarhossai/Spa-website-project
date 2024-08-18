@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+
+/* google font  */
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* google font  */
+
+/* navbar start  */
+#navbar {
+    background-color: #205B4E;
+}
+
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f9f9f9;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+.navbar-toggler span {
+    color: #f9f9f9;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 550;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    margin-left: 20px;
+
+}
+
+.nav-item .nav-link:hover {
+    background-color: #f9f9f9;
+    color: #110f0b;
+    font-weight: 900;
+
+}
+
+
+#social-links .nav-link {
+    font-size: 24px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+#social-links .nav-link:hover {
+    background-color: #aeaef3;
+    color: blue;
+}
+
+
+/* navbar End */
+
+/* Home start  */
+.home {
+    background-image: url(../images/banner.home.jfif);
+    background-position: center;
+}
+
+.home h5 {
+    color: #205B4E;
+}
+
+.home h1 {
+    font-size: 70px;
+    color: #205B4E;
+    font-weight: 700;
+    border-radius: 1px;
+    padding: 0px 1px 1px black;
+}
+
+.home p {
+    font-size: 20px;
+    color: #205B4E;
+}
+
+.home button {
+    background-color: #205B4E;
+    color: #f9f9f9;
+}
+
+.home button:hover {
+    background-color: #205B4E;
+    color: #f9f9f9;
+}
+
+/* Home End  */
+
+
+/* about start  */
+
+.about .main-txt {
+    font: size 50px;
+    font-weight: 700;
+    color: #205B4E;
+    text-align: center;
+}
+
+.about .main-txt h1 {
+    font: size 50px;
+    font-weight: 700;
+    color: #205B4E;
+    text-align: center;
+}
+
+.banner-play {
+    margin-top: 20px;
+    background-position: center;
+
+}
+
+.banner-play img {
+    width: 1200px;
+    height: 513px;
+
+}
+
+
+
+/* about End  */
+
+/* Service start */
+.service{
+    background-image: url(../images/background.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.service h4{
+    font-size: 50px;
+    color: #205B4E;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.service p{
+    font-weight: 800;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 20px;
+
+}
+
+
+
+.service button {
+    background-color: #205B4E;
+    color: #f9f9f9;
+}
+
+.service button:hover {
+    background-color: #205B4E;
+    color: #f9f9f9;
+}
+
+#service  p-text{
+    font-weight: 300;
+}
+/* Service End */
+
+/* blog start  */
+.blog{
+    margin-top: 80px;
+
+}
+
+.blog .main-txt{
+    font: size 50px;
+    font-weight: 700;
+    color: #205B4E;
+    text-align: center;
+}
+.blog .main-txt h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.blog .main-txt p{
+    color: #110f0b;
+    margin-top: 20px;
+}
+.blog .main-txt button{
+    background-color: #205B4E;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.rates-feedback{
+    background-color: #E8F7E454;
+    padding: 50px;
+}
+
+.blog .rates-feedback .visitor{
+    color: #205B4E;
+    font-weight: 600;
+    text-align: center;
+    padding: auto;
+}
+
+.blog .rates-feedback .visitor img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog .rates-feedback .visitor span{
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+
+
+/* blog end  */
+ /* contact strat  */
+
+.contact{
+    margin-top: 60px;
+}
+
+.contact .half{
+     padding: 20px;
+}
+.contact .half h6{
+     color: #205B4E;
+}
+
+.contact .half h3{
+     color: #205B4E;
+     font-size: 50px;
+     font-family: serif;
+     font-weight: 700;
+     margin-bottom: 20px;
+}
+
+.contact .half span{
+    color: #205B4E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact .half button {
+    background-color: #205B4E;
+    color: #f9f9f9;
+    margin-top: 10px;
+   
+}
+.contact .half .form-control{
+    background-color: #C4C4C42B;
+}
+ /* contact strat  */
+
+ /* footer start  */
+
+footer{
+    background-color: #205B4E;
+    margin-top: 50px;
+    
+}
+
+footer .list-unstyled a{
+    text-decoration: none;
+}
+
+ /* footer End */
